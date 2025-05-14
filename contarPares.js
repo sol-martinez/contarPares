@@ -20,7 +20,17 @@
 //para instalar el node modules: npm i 
 //Recorda para correr el test: npm test
 function ContarPares(arr) {
+    let par=0;
+    for (let i=0; i < arr.length; i++){
+        if (arr[i] % 2 === 0){
+            par ++;
+        } else{}
+    }
 
-}
+    return par
+
+    }
+
+
 
 module.exports = ContarPares;
